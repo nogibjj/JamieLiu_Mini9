@@ -33,12 +33,12 @@ def bar_visual(df, col, jupyter_render):
     """bar graph of a column over all airlines"""
     x = df['airline']
     y = df[col]
-    plt.figure(figsize=(15, 6))
+    plt.figure(figsize=(30, 20))
     plt.bar(x, y)
     plt.xlabel('Airlines')
     plt.ylabel(col)
     plt.title(f'{col} over Airlines')
-    plt.xticks(rotation=45)
+    plt.xticks(rotation=90)
     if not jupyter_render:
         plt.savefig(f'{col} over Airlines.png')
     else:
