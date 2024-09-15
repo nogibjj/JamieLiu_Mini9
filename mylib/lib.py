@@ -38,7 +38,7 @@ def bar_visual(df, col, jupyter_render):
     plt.xlabel('Airlines')
     plt.ylabel(col)
     plt.title(f'{col} over Airlines')
-    plt.xticks(rotation=45, font_size=8)
+    plt.xticks(rotation=45, fontsize=8)
     if not jupyter_render:
         plt.savefig(f'{col}_over_Airlines.png')
     else:
