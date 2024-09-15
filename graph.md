@@ -17,25 +17,37 @@
 
 ### Incidents 85-99
 
-![Incidents 85-99](incidents_85_99.png)
+![Incidents 85-99](incidents_85_99 over Airlines.png)
+
+![Incidents 85-99](Frequency of incidents_85_99 histogram.png)
 
 ### Fatal Accidents 85-99
 
-![Fatal Accidents 85-99](fatal_accidents_85_99.png)
+![Fatal Accidents 85-99](fatal_accidents_85_99 over Airlines.png)
+
+![Fatal Accidents 85-99](Frequency of fatal accidents_85_99 histogram.png)
 
 ### Fatalities 85-99
 
-![Fatalities 85-99](fatalities_85_99.png)
+![Fatalities 85-99](fatalities_85_99 over Airlines.png)
+
+![Fatalities 85-99](Frequency of fatalities_85_99 histogram.png)
 
 ### Incidents 00-14
 
-![Incidents 00-14](incidents_00_14.png)
+![Incidents 00-14](incidents_00_14 over Airlines.png)
+
+![Incidents 00-14](Frequency of incidents_00_14 histogram.png)
 
 ### Fatal Accidents 00-14
 
-![Fatal Accidents 00-14](fatal_accidents_00_14.png)
+![Fatal Accidents 00-14](fatal_accidents_00_14 over Airlines.png)
+
+![Fatal Accidents 00-14](Frequency of fatal accidents_00_14 histogram.png)
 
 ### Fatalities 00-14
 
-![Fatalities 00-14](fatalities_00_14.png)
+![Fatalities 00-14](fatalities_00_14 over Airlines.png)
+
+![Fatalities 00-14](Frequency of fatalities_00_14 histogram.png)
 
