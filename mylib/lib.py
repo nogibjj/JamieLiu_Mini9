@@ -33,7 +33,7 @@ def bar_visual(df, col, jupyter_render):
     """bar graph of a column over all airlines"""
     x = df['airline']
     y = df[col]
-    plt.figure(figsize=(30, 20))
+    plt.figure(figsize=(25, 15))
     plt.bar(x, y)
     plt.xlabel('Airlines')
     plt.ylabel(col)
