@@ -1,4 +1,4 @@
-# JamieLiu_Mini2
+# JamieLiu_Indiv_Proj1
 
 [![Install](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/install.yml)
 [![Lint](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/lint.yml)

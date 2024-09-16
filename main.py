@@ -35,7 +35,7 @@ def save_to_md():
     df = load_dataset()
     general_viz_combined(df, False)
     markdown_table = g_describe().to_markdown()
-    with open("graph.md", "w", encoding="utf-8") as file:
+    with open("report.md", "w", encoding="utf-8") as file:
         file.write("# Report\n\n")
         file.write("## General Description\n\n")
         file.write(f"{markdown_table}\n\n")
@@ -82,3 +82,4 @@ def save_to_md():
 
 # if __name__ == "__main__":
 #     save_to_md()
+#     print(g_describe())

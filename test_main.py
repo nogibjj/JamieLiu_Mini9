@@ -63,7 +63,7 @@ def test_save_to_md():
         print(f"save_to_md raised an error: {e}")
 
     # Check if the markdown file is generated
-    assert os.path.exists("graph.md"), "graph.md file was not created by save_to_md"
+    assert os.path.exists("report.md"), "graph.md file was not created by save_to_md"
 
     print("save_to_md passed the test.\n")
 
