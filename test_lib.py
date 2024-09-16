@@ -13,7 +13,6 @@ from mylib.lib import (
 # Load dataset for testing
 df = load_dataset()
 
-
 def test_load_dataset():
     """Test if the dataset loads correctly"""
     print("Testing load_dataset...")
@@ -77,9 +76,5 @@ def test_visual_functions():
 # Running all the tests
 if __name__ == "__main__":
     test_load_dataset()
-    test_process_mean()
-    test_process_median()
-    test_process_max()
-    test_process_min()
-    test_process_std()
+    test_stats()
     test_visual_functions()
