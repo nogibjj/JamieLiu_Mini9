@@ -1,37 +1,103 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
-## Template for Python projects with RUFF linter
+# JamieLiu_Mini2
 
-![1 15_rust_built_python_tools](https://github.com/nogibjj/python-ruff-template/assets/58792/db5f7bda-a977-4c67-acbe-a70fe034fbdf)
+[![Install](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/install.yml)
+[![Lint](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/lint.yml)
+[![Test](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/test.yml)
+[![Format](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/format.yml)
 
+## Overview
 
+This repo contains work for individual project 1. It loads the airline safety dataset and generates descriptive statistics on the dataset.
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+## Features
 
-Things included are:
+- `.devcontainer` configuration for a consistent Python development environment using Docker.
+- **Makefile** to streamline common tasks like setup, testing, linting.
+- **GitHub Actions** for automated CI/CD pipeline (testing, linting, and deployment).
+- `requirements.txt` for managing Python dependencies.
 
-* `Makefile`
+## Usage
 
-* `Pytest`
+1. **Clone the repository:**
 
-* `pandas`
+   ```bash
+   git clone git@github.com:nogibjj/JamieLiu_Mini2.git
+   ```
 
-* `Ruff`:  
+2. **Install dependencies:**
 
-Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff here](https://github.com/astral-sh/ruff).
+   ```bash
+   make install
+   ```
 
-* `Dockerfile`
+3. **Format code:**
 
-* `GitHub copilot`
+   ```bash
+   make format
+   ```
 
-* `jupyter` and `ipython` 
+   ![Alt text](format.png)
 
-* A base set of libraries for devops and web
+4. **Lint code:**
 
-* `githubactions`
+   ```bash
+   make lint
+   ```
 
-## References
+   ![Alt text](lint.png)
 
-![1 1-function-essence-of-programming](https://github.com/nogibjj/python-ruff-template/assets/58792/f7f33cd3-cff5-4014-98ea-09b6a29c7557)
+5. **Test code:**
 
+   ```bash
+   make test
+   ```
 
+   ![Alt text](test.png)
 
+6. **Run all steps (Install, Format, Lint, Test):**
+
+   ```bash
+   make all
+   ```
+
+## **Summary Statistics**:
+
+![Alt text](statistics.png)
+
+## **Visualization**:
+
+### Incidents 85-99
+
+![Incidents 85-99](incidents_85_99_over_Airlines.png)
+
+![Incidents 85-99](Frequency_of_incidents_85_99_histogram.png)
+
+### Fatal Accidents 85-99
+
+![Fatal Accidents 85-99](fatal_accidents_85_99_over_Airlines.png)
+
+![Fatal Accidents 85-99](Frequency_of_fatal_accidents_85_99_histogram.png)
+
+### Fatalities 85-99
+
+![Fatalities 85-99](fatalities_85_99_over_Airlines.png)
+
+![Fatalities 85-99](Frequency_of_fatalities_85_99_histogram.png)
+
+### Incidents 00-14
+
+![Incidents 00-14](incidents_00_14_over_Airlines.png)
+
+![Incidents 00-14](Frequency_of_incidents_00_14_histogram.png)
+
+### Fatal Accidents 00-14
+
+![Fatal Accidents 00-14](fatal_accidents_00_14_over_Airlines.png)
+
+![Fatal Accidents 00-14](Frequency_of_fatal_accidents_00_14_histogram.png)
+
+### Fatalities 00-14
+
+![Fatalities 00-14](fatalities_00_14_over_Airlines.png)
+
+![Fatalities 00-14](Frequency_of_fatalities_00_14_histogram.png)
