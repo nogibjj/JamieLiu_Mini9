@@ -40,7 +40,7 @@ def bar_visual(df, col, jupyter_render):
     plt.title(f'{col} over Airlines')
     plt.xticks(rotation=90, fontsize=6)
     if not jupyter_render:
-        plt.savefig(f'{col}_over_Airlines.png')
+        plt.savefig(f'{col}.png')
     else:
         plt.show()
     # Close the figure to avoid memory warnings
@@ -54,7 +54,7 @@ def hist_visual(df, col, jupyter_render):
     plt.ylabel('Frequency')
     plt.title(f'Frequency of {col}')
     if not jupyter_render:
-        plt.savefig(f'Frequency_of_{col}_histogram.png')
+        plt.savefig(f'Frequency_{col}_hist.png')
     else:
         plt.show()
     # Close the figure to avoid memory warnings

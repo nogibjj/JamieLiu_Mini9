@@ -41,39 +41,27 @@ def save_to_md():
         file.write(f"{markdown_table}\n\n")
         file.write("## Visualizations\n\n")
         file.write("### Incidents 85-99\n\n")
-        file.write(
-            "![Incidents 85-99](incidents_85_99_over_Airlines.png)\n\n"
-        )
-        file.write("![Incidents 85-99](Frequency_of_incidents_85_99_histogram.png)\n\n")
+        file.write("![Incidents 85-99](incidents_85_99.png)\n\n")
+        file.write("![Incidents 85-99](Frequency_incidents_85_99_hist.png)\n\n")
         file.write("### Fatal Accidents 85-99\n\n")
+        file.write("![Fatal Accidents 85-99](fatal_accidents_85_99.png)\n\n")
         file.write(
-            "![Fatal Accidents 85-99](fatal_accidents_85_99_over_Airlines.png)\n\n"
-        )
-        file.write(
-            "![Fatal Accidents 85-99](Frequency_of_fatal_accidents_85_99_histogram.png)\n\n"
+            "![Fatal Accidents 85-99](Frequency_fatal_accidents_85_99_hist.png)\n\n"
         )
         file.write("### Fatalities 85-99\n\n")
-        file.write("![Fatalities 85-99](fatalities_85_99_over_Airlines.png)\n\n")
-        file.write(
-            "![Fatalities 85-99](Frequency_of_fatalities_85_99_histogram.png)\n\n"
-        )
+        file.write("![Fatalities 85-99](fatalities_85_99.png)\n\n")
+        file.write("![Fatalities 85-99](Frequency_fatalities_85_99_hist.png)\n\n")
         file.write("### Incidents 00-14\n\n")
-        file.write(
-            "![Incidents 00-14](incidents_00_14_over_Airlines.png)\n\n"
-        )
-        file.write("![Incidents 00-14](Frequency_of_incidents_00_14_histogram.png)\n\n")
+        file.write("![Incidents 00-14](incidents_00_14.png)\n\n")
+        file.write("![Incidents 00-14](Frequency_incidents_00_14_hist.png)\n\n")
         file.write("### Fatal Accidents 00-14\n\n")
+        file.write("![Fatal Accidents 00-14](fatal_accidents_00_14.png)\n\n")
         file.write(
-            "![Fatal Accidents 00-14](fatal_accidents_00_14_over_Airlines.png)\n\n"
-        )
-        file.write(
-            "![Fatal Accidents 00-14](Frequency_of_fatal_accidents_00_14_histogram.png)\n\n"
+            "![Fatal Accidents 00-14](Frequency_fatal_accidents_00_14_hist.png)\n\n"
         )
         file.write("### Fatalities 00-14\n\n")
-        file.write("![Fatalities 00-14](fatalities_00_14_over_Airlines.png)\n\n")
-        file.write(
-            "![Fatalities 00-14](Frequency_of_fatalities_00_14_histogram.png)\n\n"
-        )
+        file.write("![Fatalities 00-14](fatalities_00_14.png)\n\n")
+        file.write("![Fatalities 00-14](Frequency_fatalities_00_14.png)\n\n")
 
 
 # if __name__ == "__main__":

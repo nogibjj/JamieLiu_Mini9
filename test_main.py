@@ -29,18 +29,18 @@ def test_general_viz_combined():
 
     # Check if the figures are generated
     files_to_check = [
-        "incidents_85_99_over_Airlines.png",
-        "Frequency_of_incidents_85_99_histogram.png",
-        "fatal_accidents_85_99_over_Airlines.png",
-        "Frequency_of_fatal_accidents_85_99_histogram.png",
-        "fatalities_85_99_over_Airlines.png",
-        "Frequency_of_fatalities_85_99_histogram.png",
-        "incidents_00_14_over_Airlines.png",
-        "Frequency_of_incidents_00_14_histogram.png",
-        "fatal_accidents_00_14_over_Airlines.png",
-        "Frequency_of_fatal_accidents_00_14_histogram.png",
-        "fatalities_00_14_over_Airlines.png",
-        "Frequency_of_fatalities_00_14_histogram.png",
+        "incidents_85_99.png",
+        "Frequency_incidents_85_99_hist.png",
+        "fatal_accidents_85_99.png",
+        "Frequency_fatal_accidents_85_99_hist.png",
+        "fatalities_85_99.png",
+        "Frequency_fatalities_85_99_hist.png",
+        "incidents_00_14.png",
+        "Frequency_incidents_00_14_hist.png",
+        "fatal_accidents_00_14.png",
+        "Frequency_fatal_accidents_00_14_hist.png",
+        "fatalities_00_14.png",
+        "Frequency_fatalities_00_14_hist.png",
     ]
 
     for file in files_to_check:
