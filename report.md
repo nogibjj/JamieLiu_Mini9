@@ -49,5 +49,5 @@
 
 ![Fatalities 00-14](fatalities_00_14.png)
 
-![Fatalities 00-14](Frequency_fatalities_00_14.png)
+![Fatalities 00-14](Frequency_fatalities_00_14_hist.png)
 
