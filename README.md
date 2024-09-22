@@ -103,8 +103,8 @@ JAMIELIU_INDIV_PROJ1/
 
 ### Incidents 00-14
 
-![Incidents 00-14](incidents_00_14_over_Airlines.png)
+![Incidents 00-14](incidents_00_14.png)
 
-![Incidents 00-14](Frequency_of_incidents_00_14_histogram.png)
+![Incidents 00-14](Frequency_incidents_00_14_hist.png)
 
 See detailed statistics and visualizations in this [report](/report.md)

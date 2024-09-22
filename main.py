@@ -61,7 +61,7 @@ def save_to_md():
         )
         file.write("### Fatalities 00-14\n\n")
         file.write("![Fatalities 00-14](fatalities_00_14.png)\n\n")
-        file.write("![Fatalities 00-14](Frequency_fatalities_00_14.png)\n\n")
+        file.write("![Fatalities 00-14](Frequency_fatalities_00_14_hist.png)\n\n")
 
 
 # if __name__ == "__main__":
