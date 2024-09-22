@@ -7,7 +7,7 @@
 
 ## Demo Link
 
-!(Demo Link)[]
+(Demo Link)[]
 
 ## Overview
 
@@ -16,6 +16,7 @@ This repo contains work for Data Engineering class, individual project 1. It loa
 ## Project Structure
 
 """
+JAMIELIU_INDIV_PROJ1/
 ├── .devcontainer/
 │ ├── devcontainer.json
 │ └── Dockerfile
@@ -100,10 +101,10 @@ This repo contains work for Data Engineering class, individual project 1. It loa
 
 ## **Example Visualization**:
 
-### See detailed statistics and visualizations ![here](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/blob/main/report.md]
-
 ### Incidents 00-14
 
 ![Incidents 00-14](incidents_00_14_over_Airlines.png)
 
 ![Incidents 00-14](Frequency_of_incidents_00_14_histogram.png)
+
+### See detailed statistics and visualizations in this [report] (https://github.com/nogibjj/JamieLiu_Indiv_Proj1/blob/main/report.md]
