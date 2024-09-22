@@ -7,7 +7,7 @@
 
 ## Demo Link
 
-(Demo Link)[]
+[Demo Link]()
 
 ## Overview
 
@@ -107,4 +107,4 @@ JAMIELIU_INDIV_PROJ1/
 
 ![Incidents 00-14](Frequency_of_incidents_00_14_histogram.png)
 
-### See detailed statistics and visualizations in this [report] (https://github.com/nogibjj/JamieLiu_Indiv_Proj1/blob/main/report.md]
+### See detailed statistics and visualizations in this [report] (/report.md)
