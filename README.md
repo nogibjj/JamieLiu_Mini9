@@ -15,7 +15,7 @@ This repo contains work for Data Engineering class, individual project 1. It loa
 
 ## Project Structure
 
-"""
+```
 JAMIELIU_INDIV_PROJ1/
 ├── .devcontainer/
 │ ├── devcontainer.json
@@ -42,7 +42,7 @@ JAMIELIU_INDIV_PROJ1/
 ├── setup.sh
 ├── test_lib.py
 ├── test_main.py
-"""
+```
 
 ## Features
 
@@ -107,4 +107,4 @@ JAMIELIU_INDIV_PROJ1/
 
 ![Incidents 00-14](Frequency_of_incidents_00_14_histogram.png)
 
-See detailed statistics and visualizations in this [report] (/report.md)
+See detailed statistics and visualizations in this [report](/report.md)
