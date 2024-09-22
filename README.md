@@ -11,7 +11,7 @@
 
 ## Overview
 
-This repo contains work for Data Engineering class, individual project 1. It loads the airline safety dataset and generates descriptive statistics on the dataset.
+This repo contains work for Data Engineering class, individual project 1. This project practices continuous integration in data science. I use the airline safety dataset and generates descriptive statistics and visualizations.
 
 ## Project Structure
 
