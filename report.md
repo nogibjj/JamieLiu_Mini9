@@ -1,6 +1,6 @@
 # Report
 
-## General Description
+## Statistics
 
 |       |   avail_seat_km_per_week |   incidents_85_99 |   fatal_accidents_85_99 |   fatalities_85_99 |   incidents_00_14 |   fatal_accidents_00_14 |   fatalities_00_14 |
 |:------|-------------------------:|------------------:|------------------------:|-------------------:|------------------:|------------------------:|-------------------:|
@@ -17,7 +17,7 @@
 
 ### Incidents 85-99
 
-![Incidents 85-99]                   (incidents_85_99_over_Airlines.png)
+![Incidents 85-99](incidents_85_99_over_Airlines.png)
 
 ![Incidents 85-99](Frequency_of_incidents_85_99_histogram.png)
 
@@ -25,7 +25,7 @@
 
 ![Fatal Accidents 85-99](fatal_accidents_85_99_over_Airlines.png)
 
-![Fatal Accidents 85-99]                (Frequency_of_fatal_accidents_85_99_histogram.png)
+![Fatal Accidents 85-99](Frequency_of_fatal_accidents_85_99_histogram.png)
 
 ### Fatalities 85-99
 
@@ -35,7 +35,7 @@
 
 ### Incidents 00-14
 
-![Incidents 00-14]                   (incidents_00_14_over_Airlines.png)
+![Incidents 00-14](incidents_00_14_over_Airlines.png)
 
 ![Incidents 00-14](Frequency_of_incidents_00_14_histogram.png)
 
@@ -43,7 +43,7 @@
 
 ![Fatal Accidents 00-14](fatal_accidents_00_14_over_Airlines.png)
 
-![Fatal Accidents 00-14]                (Frequency_of_fatal_accidents_00_14_histogram.png)
+![Fatal Accidents 00-14](Frequency_of_fatal_accidents_00_14_histogram.png)
 
 ### Fatalities 00-14
 
