@@ -5,9 +5,43 @@
 [![Test](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/test.yml)
 [![Format](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/format.yml)
 
+## Demo Link
+
+!(Demo Link)[]
+
 ## Overview
 
-This repo contains work for individual project 1. It loads the airline safety dataset and generates descriptive statistics on the dataset.
+This repo contains work for Data Engineering class, individual project 1. It loads the airline safety dataset and generates descriptive statistics on the dataset.
+
+## Project Structure
+
+"""
+├── .devcontainer/
+│ ├── devcontainer.json
+│ └── Dockerfile
+├── .github/
+│ └── workflows/
+│ ├── format.yml
+│ ├── install.yml
+│ ├── lint.yml
+│ └── test.yml
+├── mylib/
+│ ├── **init**.py
+│ └── lib.py
+├── .gitignore
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── main.ipynb
+├── main.py
+├── Makefile
+├── repeat.sh
+├── report.md
+├── requirements.txt
+├── setup.sh
+├── test_lib.py
+├── test_main.py
+"""
 
 ## Features
 
@@ -21,7 +55,7 @@ This repo contains work for individual project 1. It loads the airline safety da
 1. **Clone the repository:**
 
    ```bash
-   git clone git@github.com:nogibjj/JamieLiu_Mini2.git
+   git clone git@github.com:nogibjj/JamieLiu_Indiv_Proj1.git
    ```
 
 2. **Install dependencies:**
@@ -64,40 +98,12 @@ This repo contains work for individual project 1. It loads the airline safety da
 
 ![Alt text](statistics.png)
 
-## **Visualization**:
+## **Example Visualization**:
 
-### Incidents 85-99
-
-![Incidents 85-99](incidents_85_99_over_Airlines.png)
-
-![Incidents 85-99](Frequency_of_incidents_85_99_histogram.png)
-
-### Fatal Accidents 85-99
-
-![Fatal Accidents 85-99](fatal_accidents_85_99_over_Airlines.png)
-
-![Fatal Accidents 85-99](Frequency_of_fatal_accidents_85_99_histogram.png)
-
-### Fatalities 85-99
-
-![Fatalities 85-99](fatalities_85_99_over_Airlines.png)
-
-![Fatalities 85-99](Frequency_of_fatalities_85_99_histogram.png)
+### See detailed statistics and visualizations ![here](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/blob/main/report.md]
 
 ### Incidents 00-14
 
 ![Incidents 00-14](incidents_00_14_over_Airlines.png)
 
 ![Incidents 00-14](Frequency_of_incidents_00_14_histogram.png)
-
-### Fatal Accidents 00-14
-
-![Fatal Accidents 00-14](fatal_accidents_00_14_over_Airlines.png)
-
-![Fatal Accidents 00-14](Frequency_of_fatal_accidents_00_14_histogram.png)
-
-### Fatalities 00-14
-
-![Fatalities 00-14](fatalities_00_14_over_Airlines.png)
-
-![Fatalities 00-14](Frequency_of_fatalities_00_14_histogram.png)
