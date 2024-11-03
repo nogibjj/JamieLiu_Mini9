@@ -2,44 +2,13 @@
 
 ## Colab Link
 
-## Demo Link
-
-[Demo Link](https://youtu.be/CilIVwqyJcU)
+[Google Colab Link](https://colab.research.google.com/drive/1fNF6bFb0YPmg6-SBcne0ZdZrb3rkCPTK)
 
 ## Overview
 
 This repo contains work for Data Engineering class, individual project 1. This project practices continuous integration in data science. I use the airline safety dataset and generates descriptive statistics and visualizations.
 
 ## Project Structure
-
-```
-JAMIELIU_INDIV_PROJ1/
-├── .devcontainer/
-│ ├── devcontainer.json
-│ └── Dockerfile
-├── .github/
-│ └── workflows/
-│ ├── format.yml
-│ ├── install.yml
-│ ├── lint.yml
-│ └── test.yml
-├── mylib/
-│ ├── **init**.py
-│ └── lib.py
-├── .gitignore
-├── Dockerfile
-├── LICENSE
-├── README.md
-├── main.ipynb
-├── main.py
-├── Makefile
-├── repeat.sh
-├── report.md
-├── requirements.txt
-├── setup.sh
-├── test_lib.py
-├── test_main.py
-```
 
 ## Features
 
@@ -94,14 +63,14 @@ JAMIELIU_INDIV_PROJ1/
 
 ## **Summary Statistics**:
 
-![Alt text](statistics.png)
+![Alt text](images/statistics.png)
 
 ## **Example Visualization**:
 
 ### Incidents 00-14
 
-![Incidents 00-14](incidents_00_14.png)
+![Incidents 00-14](images/incidents_00_14.png)
 
-![Incidents 00-14](Frequency_incidents_00_14_hist.png)
+![Incidents 00-14](images/Frequency_incidents_00_14_hist.png)
 
 See detailed statistics and visualizations in this [report](/report.md)
