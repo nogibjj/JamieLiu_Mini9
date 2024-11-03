@@ -1,9 +1,6 @@
-# JamieLiu_Indiv_Proj1
+# JamieLiu_Mini9
 
-[![Install](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/install.yml)
-[![Lint](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/lint.yml)
-[![Test](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/test.yml)
-[![Format](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Indiv_Proj1/actions/workflows/format.yml)
+## Colab Link
 
 ## Demo Link
 
@@ -56,7 +53,7 @@ JAMIELIU_INDIV_PROJ1/
 1. **Clone the repository:**
 
    ```bash
-   git clone git@github.com:nogibjj/JamieLiu_Indiv_Proj1.git
+   git clone git@github.com:nogibjj/JamieLiu_Mini9.git
    ```
 
 2. **Install dependencies:**
