@@ -18,9 +18,18 @@ Here’s an overview of the project structure:
 ```
 JAMIELIU_MINI9/
 ├── .devcontainer/
+│ ├── devcontainer.json
+│ └── Dockerfile
 ├── .github/
+│ └── workflows/
+│ ├── format.yml
+│ ├── install.yml
+│ ├── lint.yml
+│ └── test.yml
 ├── images/
 ├── mylib/
+│ ├── **init**.py
+│ └── lib.py
 ├── .gitignore
 ├── main.py
 ├── Makefile
