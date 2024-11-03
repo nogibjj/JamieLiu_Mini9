@@ -1,5 +1,10 @@
 # JamieLiu_Mini9
 
+[![Format](https://github.com/nogibjj/JamieLiu_Mini9/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Mini9/actions/workflows/format.yml)
+[![Install](https://github.com/nogibjj/JamieLiu_Mini9/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Mini9/actions/workflows/install.yml)
+[![Lint](https://github.com/nogibjj/JamieLiu_Mini9/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Mini9/actions/workflows/lint.yml)
+[![Test](https://github.com/nogibjj/JamieLiu_Mini9/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Mini9/actions/workflows/test.yml)
+
 This project involves setting up a cloud-hosted Jupyter Notebook on Google Colab, performing data manipulation tasks, and integrating a CI/CD pipeline. It demonstrates proficiency in cloud-based data analysis, project configuration, and automation.
 
 ## Colab Link
