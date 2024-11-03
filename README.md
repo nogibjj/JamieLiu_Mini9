@@ -20,8 +20,7 @@ JAMIELIU_MINI9/
 ├── .devcontainer/
 │ ├── devcontainer.json
 │ └── Dockerfile
-├── .github/
-│ └── workflows/
+├── .github/workflows/
 │ ├── format.yml
 │ ├── install.yml
 │ ├── lint.yml
